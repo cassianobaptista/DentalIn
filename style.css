@@ -15,3 +15,251 @@
 body {
     font-family: 'poppins', sans-serif;
 }
+
+.header,
+.presentation,
+.about-us,
+.services,
+.bottom-slogan,
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.about-us,
+.services,
+.bottom-slogan-container,
+.footer {
+    margin-top: 80px;
+}
+
+/* Header */
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 116px;
+
+}
+
+.header__cta {
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 130px;
+    height: 32px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Presentation */
+
+.presentation {
+    margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation__description-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentation__title {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.presentation__text {
+    font-size: 14px;
+    color: var(--gray-200);
+    line-height: 21px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.presentation__cta {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 40px;
+    transition: filter 250ms;
+}
+
+.presentation__cta:hover {
+    filter: brightness(1.2);
+}
+
+.presentation__image {
+    margin-top: 40px;
+    max-width: 262px;
+}
+
+/* About us */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us__tag {
+    font-size: 18px;
+    font-weight: 600px;
+    color: var(--gray-100);
+    text-align: center;
+    display: block;
+}
+
+.about-us__title {
+    font-size: 20px;
+    color: var(--primary-color);
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-us__company-name-in-title {
+    color: var(--gray-100);
+}
+
+.about-us__text {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: var(--gray-200);
+    margin-top: 20px;
+}
+
+.about-us__image {
+    margin-top: 50px;
+    max-width: 274px;
+}
+
+/* Services */
+
+.services__tag {
+    font-size: 18px;
+    color: var(--gray-100);
+    display: block;
+    font-weight: 600;
+    text-align: center;
+}
+
+.services__title {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    color: var(--black);
+}
+
+.services__item {
+    margin-top: 40px;
+}
+
+.services__image-item {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 66px;
+}
+
+.services__description-item {
+    text-align: center;
+    display: block;
+
+}
+
+/* Bottom slogan */
+
+.bottom-slogan-container {
+    background-color: #C4C4C40F;
+    padding: 30px 0;
+}
+
+.bottom-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-slogan__tag {
+    color: var(--gray-100);
+    font-size: 18px;
+}
+
+.bottom-slogan__text {
+    color: var(--primary-color);
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.bottom-slogan__cta {
+    width: 135px;
+    height: 38px;
+    background: var(--primary-color);
+    display: block;
+    font-size: 10px;
+    color: var(--white);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: filter 250ms;
+}
+
+.bottom-slogan__cta:hover {
+    filter: brightness(1.2);
+}
+
+.bottom-slogan__image {
+    margin-top: 50px;
+    max-width: 260px;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.footer__logo {
+    width: 120px;
+}
+
+.footer__text {
+    font-size: 14px;
+    color: var(--gray-200);
+    font-weight: 600;
+    margin-top: 20px;
+}
